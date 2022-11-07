@@ -1,6 +1,6 @@
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
-
+#
 app = Flask(__name__)
 from routes import *
 app.config['SECRET_KEY'] = 'ABC12345'
